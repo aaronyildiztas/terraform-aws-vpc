@@ -19,14 +19,14 @@ module "vpc" {
 
 
 output "vpc_id" {
-    value = module.three-tier.vpc
+    value = module.vpc.vpc
 }
 output "public" {
-    value = module.three-tier.public_subnets
+    value = module.vpc.public_subnets
 }
 output "private" {
-    value = module.three-tier.private_subnets
+    value = module.vpc.private_subnets
 }
 output "region" {
-    value = module.three-tier.region
+    value = module.vpc.region
 }
