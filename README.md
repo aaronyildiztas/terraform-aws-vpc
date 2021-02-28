@@ -26,8 +26,6 @@ module "vpc" {
   }
 }
 
-  ]
-}
 ```
 ### Please run
 ```
